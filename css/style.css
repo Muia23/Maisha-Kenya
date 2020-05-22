@@ -1,4 +1,5 @@
 body {
+width:100%;
   padding: 0;
   margin: 0;
 box-sizing: border-box;
@@ -14,12 +15,6 @@ box-sizing: border-box;
   border-bottom: 2px solid white;
 }
 
-#navbar ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-decoration: none;
-}
 .navbar ul li a {
   color: white;
   transition:color 0.3s;
@@ -48,18 +43,7 @@ width:100%;
   transform: translate(-50% -50%);
   color: white;
 }
- h2{
-	text-transform: uppercase;
-	text-align: center;
-	font-style: normal;
-	font-family: Times New Roman;
-	font-size: medium;
-	color: mediumblue;
-}
-img{
-  height: 730px;
-  width: 100%;
-}
+ 
 .about p{
 	font-style: normal;
 	text-align: center;
@@ -72,14 +56,7 @@ img{
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	letter-spacing: 1px;
 }
-.container h2{
-	background:#b0c4de;
-	color: #000;
-	width: 200px;
-	font-size: 24px;
-	padding: 5px;
-	height: 40px;
-}
+
 .container h2:: after{
 	content: "";
 	border top: 40 px solid;
@@ -512,38 +489,7 @@ input:focus {
 	border-radius: 10px;
 }
 
-body{
-  width:100%;
-  padding: 0;
-  margin: 0;
-box-sizing: border-box;
-}
-.navbar {
-  width: 100%;
-  position: sticky;
-  top:0;
-  display:flex;
-  justify-content: space-between;
-  padding: 1rem 1rem;
-  z-index: 1;
-  border-bottom: 2px solid white;
-}
 
-.navbar ul li a {
-  color: black;
-  transition:color 0.3s;
-
-}
-
-.navbar li a:hover{
-  background-color: white;
-  color:  #419ab5;
-}
- .d-block w-100 img {
-height: 730px;
-width:100%;
-
-}
 .carousel-caption{
   color: green;
   margin: 90px;
@@ -773,9 +719,9 @@ text-transform: uppercase;
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
-		background-color: #56CCF2;
+background-color: #56CCF2;
     border: none;
-    border-radius: .3em;
+    border-radius: .3rem;
     font-weight: bold;
 }
 .cart-quantity-input {
