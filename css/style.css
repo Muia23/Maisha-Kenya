@@ -749,4 +749,7 @@ background-color: #56CCF2;
         height: auto;
        border-radius: 10px;
 }
+.location{
+	position: relative;
+}
 	
