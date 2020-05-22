@@ -25,7 +25,7 @@ box-sizing: border-box;
   background-color: white;
   color:  #419ab5;
 }
- .d-block w-100  {
+ .d-block w-100 img {
 height: 730px;
 width:100%;
 
@@ -54,6 +54,7 @@ width:100%;
   transform: translate(-50% -50%);
   color: white;
 }
+
 .main h2{
 	text-transform: uppercase;
 	text-align: center;
@@ -92,14 +93,15 @@ color: white;
 background-attachment: fixed;
 margin-top: 100px;
 }
+
 .stat p{
   font-size: 30px;
 }
+
 .stat i{
   font-size: 40px;
   color: white;
 }
-
 
 h4 {
 	font-size: 30px;
@@ -281,9 +283,10 @@ text-transform: uppercase;
     color: #333;
     margin-left: .5em;
     font-size: 1.2em;
-		.cart-item-image {
-		    width: 75px;
-		    height: auto;
-		    border-radius: 10px;
+}
+.cart-item-image {
+	width: 75px;
+        height: auto;
+       border-radius: 10px;
 }
 	
