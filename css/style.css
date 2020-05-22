@@ -750,6 +750,8 @@ background-color: #56CCF2;
        border-radius: 10px;
 }
 .location{
-	position: relative;
+	float : right;
+	height : 200px;
+	width : 400px;
 }
 	
